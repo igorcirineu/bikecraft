@@ -1,0 +1,51 @@
+/*---------------------------------------------------------------------------------------------*/
+/* introdução interna */
+/*---------------------------------------------------------------------------------------------*/
+
+.introducao_sobre {
+  width: 100%;
+  height: 160px;
+  background: url(../img/bg-sobre.jpg) no-repeat center;
+  background-size: cover;
+  margin-top: 92px;
+  text-align: center;
+  padding-top: 30px;
+  color: #fff;
+}
+
+.introducao_sobre h1 {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 60px;
+}
+
+.introducao_sobre h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: white;
+  margin: 6px auto 10px auto;
+}
+
+.missao_sobre {
+  padding-top: 60px;
+}
+.foto_sobre {
+  padding-top: 20px;
+}
+
+.missao_sobre p {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 1em;
+  padding-right: 60px;
+}
+
+.missao_sobre ul li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 30px;
+}

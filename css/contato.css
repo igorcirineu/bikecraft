@@ -1,0 +1,64 @@
+.introducao_contato {
+  width: 100%;
+  height: 160px;
+  background: url(../img/bg-contato.jpg) no-repeat center;
+  background-size: cover;
+  margin-top: 92px;
+  text-align: center;
+  padding-top: 30px;
+  color: #fff;
+}
+
+.introducao_contato h1 {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 60px;
+}
+
+.introducao_contato h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: white;
+  margin: 6px auto 10px auto;
+}
+
+.orcamento_contato {
+  margin-top: 60px;
+  padding: 40px 0;
+}
+
+.orcamento_contato .form label,
+.orcamento_contato .form input,
+.orcamento_contato .form textarea,
+.orcamento_contato .orcamento_dados span {
+  color: black;
+}
+
+.dados {
+  margin-bottom: 40px;
+}
+
+.orcamento_contato .orcamento_dados .footer_rede ul li {
+  display: inline-block;
+  background: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.orcamento_contato .orcamento_dados .footer_rede ul li a {
+  border: 3px solid #fec63e;
+  display: block;
+  padding: 10px;
+}
+
+.orcamento_contato .orcamento_dados .footer_rede ul li a:hover {
+  border-color: black;
+}
+
+.mapa {
+  margin-top: 60px;
+}
