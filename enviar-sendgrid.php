@@ -25,7 +25,7 @@ $email->setReplyTo($email_user, $nome_user);
 $email->setSubject("Formulário Bikcraft");
 $email->addContent("text/plain", $body_content);
 
-$sendgrid = new \SendGrid("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");
+$sendgrid = new \SendGrid("id sendgrid");
 try {
     $response = $sendgrid->send($email);
     print $response->statusCode() . "\n";
